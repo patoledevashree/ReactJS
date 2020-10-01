@@ -9,6 +9,10 @@ import FunctionClick from './components/functionClick';
 import ClassClick from './components/ClassClick';
 import BindEvent from './components/BindEvent';
 import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
+import StyleSheet from './components/stylesheet'
+import Inline from './components/Inline';
 
 function App() {
   return (
@@ -24,7 +28,13 @@ function App() {
     {/* <FunctionClick></FunctionClick> */}
     {/* <ClassClick></ClassClick> */}
     {/* <BindEvent></BindEvent> */}
-    <ParentComponent></ParentComponent>
+    {/* <ParentComponent></ParentComponent> */}
+    {/* <UserGreeting></UserGreeting> */}
+
+    {/* <NameList></NameList> */}
+    {/* <StyleSheet primary = {true}></StyleSheet> */}
+    {/* <Inline></Inline> */}
+    
     </div>
   );
 }
